@@ -10,15 +10,14 @@ while task != 4:
     
     
     task = int(input("Enter Task: "))
-# while task != 4: 
     if task == 1:
             deposit = int(input("Enter deposit: "))
             initial_bal = initial_bal + deposit
-            print("New balance: {}" .format(deposit))
+            print("New balance: {}" .format(initial_bal))
     elif task == 2:
             withdraw = int(input("Enter withdrawal amount: "))
             initial_bal = initial_bal - withdraw
-            print("New balance: {}" .format(withdraw))
+            print("New balance: {}" .format(initial_bal))
     elif task == 3:
             print(initial_bal)
     elif task == 4:
